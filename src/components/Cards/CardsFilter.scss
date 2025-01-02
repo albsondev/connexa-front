@@ -1,0 +1,58 @@
+.card {
+    .card-header {
+        font-weight: bold;
+
+        .icon-sended {
+            transform: rotate(-39deg) !important;
+            position: absolute;
+            margin-top: 2px;
+            right: 7px;
+            color: royalblue;
+            filter: drop-shadow(3px 3px 3px rgba(0,0,0,0.4));
+
+        }
+
+        .icon-received {
+            transform: rotate(-35deg) !important;
+            position: absolute;
+            margin-top: 2px;
+            right: 7px;
+            color: green;
+            filter: drop-shadow(3px 3px 3px rgba(0,0,0,0.4));
+        }
+    }
+
+    .card-body {
+        color: rgb(95, 95, 95);
+        .card-title {
+            font-size: 1.9rem !important;
+        }
+    }
+}
+
+.card.bg-received {
+    .card-header {
+        font-weight: bold;
+    }
+
+    .card-body {
+        color: #c8f7c5;
+
+        .card-title {
+            font-size: 1.9rem !important;   
+        }
+    }
+}
+
+.cardsFilter-container {
+    height: 124px !important;
+    margin-top: 0.4em;
+
+    & .cardsFilter-title {
+        font-size: 1rem !important;
+        font-weight: bold !important;
+        margin: 0 !important;
+        margin-top: -0.75em !important;
+    }
+
+}

@@ -1,0 +1,276 @@
+{
+  "login": {
+    "title": "サインイン",
+    "description": "アカウントにログイン",
+    "form": {
+      "username": "ユーザー名",
+      "email": "メール",
+      "password": "パスワード",
+      "submit": "ログイン",
+      "submitting": "Logging in..."
+    },
+    "forgot_password": "パスワードを忘れましたか？",
+    "signup": {
+      "title": "サインアップ",
+      "description": "いろはにほへとちりぬるをわかよたれそつねならむ\nうゐのおくやまけふこえてあさきゆめみしゑひもせす"
+    },
+    "message": {
+      "auth_failed": "認証に失敗しました"
+    },
+    "error": {
+    "generic": "An error occurred. Please try again."
+  }
+  },
+  "pagination": {
+    "summary": "表示中 1 から 20 までの 151 の結果",
+    "rows_per_page": "行数"
+  },
+  "signup": {
+    "title": "サインアップ",
+    "description": "アカウントを作成",
+    "register_now": "今すぐ登録！",
+    "form": {
+      "username": "ユーザー名",
+      "email": "メール",
+      "password": "パスワード",
+      "confirm_password": "パスワードの確認",
+      "submit": "登録"
+    }
+  },
+  "action": {
+    "info": "情報",
+    "edit": "編集",
+    "delete": "削除",
+    "submit": "送信",
+    "submitting": "送信中...",
+    "reset": "リセット"
+  },
+  "theme": {
+    "light": "ライト",
+    "dark": "ダーク",
+    "auto": "自動"
+  },
+  "dashboard": {
+    "cardsInfo": {
+      "totalWebInstances": "ウェブインスタンスの合計数",
+      "totalWebInstancesRunning": "実行中のウェブインスタンスの合計数",
+      "webInstancesConnected": "接続されたウェブインスタンス",
+      "totalWebConnections": "接続されたウェブインスタンス",
+      "webInstancesDisconnected": "切断されたウェブインスタンス",
+      "totalWebDisconnections": "切断されたウェブインスタンス",
+      "link": "アクセス"
+    },
+    "filters": {
+      "period": "期間",
+      "label": "ラベル",
+      "thisMonth": "今月",
+      "lastMonth": "先月",
+      "yesterday": "昨日",
+      "today": "今日",
+      "selectOrSearch": "選択または検索"
+    },
+    "cardsFilter": {
+      "totalSent": "送信された合計",
+      "totalReceived": "受信された合計"
+    },
+    "chart": {
+      "title": "今月の受信/送信数",
+      "qtyReceived": "数量受信",
+      "qtySent": "数量送信"
+    },
+    "messageStats": {
+      "title": "送信されたメッセージ",
+      "sent": "送信された",
+      "received": "受信された",
+      "noData": "データがありません",
+      "texts": "テキスト",
+      "buttons": "ボタン",
+      "links": "リンク",
+      "options": "オプション",
+      "documents": "ドキュメント",
+      "audios": "オービジョ",
+      "videos": "ビデオ",
+      "contacts": "コンタクト",
+      "images": "イメージ",
+      "locations": "ロケーション",
+      "stickers": "スティッカー"
+    }
+  },
+  "pages": {
+    "instances": {
+      "title": "インスタンス",
+      "table": {
+        "id": "コード",
+        "type": "タイプ",
+        "token": "トークン",
+        "name": "名前",
+        "status": "ステータス",
+        "paymentMatureDate": "支払いの満了日",
+        "payment": "支払い",
+        "show": "表示",
+        "created_at": "作成日",
+        "actions": "アクション",
+        "actionsDropdown": {
+          "downloads": "ダウンロード",
+          "csv": "CSV",
+          "json": "JSON",
+          "xml": "XML"
+        }
+      },
+      "filters": {
+        "all": "全て",
+        "conected": "接続された",
+        "disconnected": "切断された",
+        "searchHeader": "検索",
+        "add": "追加"
+      },
+      "register": {
+        "title": "インスタンス登録",
+        "navTabs": {
+          "webInstanceData": "ウェブインスタンスデータ",
+          "configs": "構成",
+          "webhooks": "ウェブフック",
+          "subtitleWebhooks": "ウェブフックを設定すると、インスタンスからのイベントを受け取ることができます。",
+          "configureWebhooks": "ウェブフックの構成",
+          "form": {
+            "instanceName": "インスタンス名",
+            "instanceId": "インスタンスID",
+            "automaticallyRejectCalls": "自動着信拒否",
+            "automaticallyReadMessages": "自動着信読み込み",
+            "tokenIntegration": "トークンインテグレーション",
+            "generateNewToken": "新しいトークンを生成する",
+            "continue": "続行",
+            "cancel": "キャンセル",
+            "save": "保存",
+            "update": "更新",
+            "webhooks": {
+              "whenSendMessage": "送信",
+              "whenReceiveMessage": "受信",
+              "whenDisconnect": "切断",
+              "whenConnect": "接続",
+              "receiveMessageStatus": "メッセージステータスを受け取る",
+              "chatPresence": "チャットプレセンス",
+              "notifyThoseSentByMeAsWell": "私が送ったものを通知する",
+              "onSendOrReceiveMessage": "送信または受信",
+              "onChangeInstanceStatus": "インスタンスステータスの変更時"
+            }
+          }
+        }
+      },
+      "details": {
+        "title": "インスタンスの詳細",
+        "subtitle": "これは、このインスタンスと統合するための情報です。この情報は共有しないでください。",
+        "apiInstance": "APIインスタンス",
+          "IDInstance": "IDインスタンス",
+          "nameInstance": "インスタンス名",
+          "statusInstance": "インスタンスステータス",
+          "tokenInstance": "トークンインスタンス",
+          "ReadTheQrCode": "QRCodeを読み込む",
+          "helpTextQrCode": "QRコードを読み込むと、インスタンスを接続することができます。",
+          "connectPhoneNumber": "電話番号で接続する",
+          "instanceData": "インスタンスデータ ",
+          "instanceUpdate": {
+          "msgSuccess": "インスタンスデータを更新しました。",
+          "msgError": "インスタンスデータの更新に失敗しました。再試行してください。"
+        },
+        "instanceExpired": {
+          "title": "インスタンスの詳細",
+          "subtitle": "このインスタンスを使用する前に支払いを行う必要があります。値は次のとおりです: ",
+          "button": "支払いを行う",
+          "makePayment": "支払いを行う",
+          "makePaymentSubtitle": "このインスタンスを使用する前に支払いを行う必要があります。値は次のとおりです: ",
+          "Signature": "サイン",
+          "instanceCode": "インスタンスコード",
+          "statusInstance": "現在のステータス",
+          "expiredIn": "残り期間",
+          "days": "日",
+          "months": "ヶ月",
+          "years": "年",
+          "alertMessage": "評価期間が終了しました。このインスタンスを使用する前に支払いを行う必要があります。"
+        },
+        "modalPayments": {
+          "title": "支払い方法",
+          "subtitle": "支払いを完了するには、以下のオプションのいずれかを選択してください。",
+          "bankSlip": "銀行伝票",
+          "creditCard": "クレジットカード",
+          "debitCard": "デビットカード",
+          "pix": "PIX",
+          "boleto": "銀行伝票",
+          "btnCancel": "キャンセル"
+        }
+      }
+    },
+    "accountData": {
+      "title": "アカウント情報",
+      "form": {
+        "fullName": "名前",
+        "email": "メール",
+        "phone": "電話番号",
+        "cpfCnpj": "CPF/CNPJ",
+        "yourAForeigner": "外国人?",
+        "yes": "はい",
+        "no": "いいえ",
+        "address": "住所",
+        "cep": "CEP",
+        "street": "通り",
+        "number": "番号",
+        "neighborhood": "区",
+        "btnCancel": "キャンセル",
+        "btnSave": "保存",
+        "msgError": "アカウント情報の更新に失敗しました。再試行してください。",
+        "msgSuccess": "アカウント情報を更新しました。"
+      }
+    }
+  },
+  "featured_nav": {
+    "dashboard": "ダッシュボード",
+    "title": "主要な指標を見る"
+  },
+  "profile": {
+    "account": {
+      "title": "アカウント",
+      "items": {
+        "updates": "アップデート",
+        "messages": "メッセージ",
+        "tasks": "タスク",
+        "comments": "コメント"
+      }
+    },
+    "settings": {
+      "title": "設定",
+      "items": {
+        "profile": "プロフィール",
+        "settings": "設定",
+        "payments": "支払い",
+        "projects": "プロジェクト"
+      }
+    },
+    "lock_account": "アカウントをロックする",
+    "logout": "ログアウト"
+  },
+  "breadcrumb": {
+    "home": "ホーム",
+    "library": "ライブラリー",
+    "data": "データ"
+  },
+  "sidebar": {
+    "items": {
+      "dashboardTitle": "メインメニュー",
+      "dashboard": "ダッシュボード",
+      "sample": "サンプル",
+      "breadcrumb": "ナビゲーション",
+      "cards": "カード",
+      "carousel": "カルーセル",
+      "collapse": "折りたたむ",
+      "list_group": "グループ",
+      "navs": "ナビ",
+      "accountData": "アカウントデータ",
+      "webInstances": "ウェブインスタンス",
+      "login": "ログイン",
+      "register": "登録",
+      "docs": "ドキュメント",
+      "help": "ヘルプ",
+      "pages": "ページ"
+    }
+  }
+}

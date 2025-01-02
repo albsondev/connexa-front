@@ -1,0 +1,276 @@
+{
+  "login": {
+    "title": "Iniciar sesión",
+    "description": "Inicia sesión en tu cuenta",
+    "form": {
+      "username": "Nombre de usuario",
+      "email": "Correo",
+      "password": "Contraseña",
+      "submit": "Iniciar sesión",
+      "submitting": "Iniciando sesión..."
+    },
+    "forgot_password": "¿Olvidaste tu contraseña?",
+    "signup": {
+      "title": "Registrarse",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod\ntempor incididunt ut labore et dolore magna aliqua."
+    },
+    "message": {
+      "auth_failed": "Nombre de usuario o contraseña inválidos"
+    },
+    "error": {
+      "generic": "Se ha producido un error. Por favor, inténtalo de nuevo."
+    }
+  },
+  "pagination": {
+    "summary": "Mostrando de {{from}} a {{to}} de un total de {{total}} resultados",
+    "rows_per_page": "Filas por página"
+  },
+  "signup": {
+    "title": "Página de registro",
+    "description": "Crea tu cuenta",
+    "register_now": "¡Regístrate ahora!",
+    "form": {
+      "username": "Nombre de usuario",
+      "email": "Correo electrónico",
+      "password": "Contraseña",
+      "confirm_password": "Confirmar contraseña",
+      "submit": "Crear cuenta"
+    }
+  },
+  "action": {
+    "info": "Detalles",
+    "edit": "Editar",
+    "delete": "Eliminar",
+    "submit": "Enviar",
+    "submitting": "Enviando...",
+    "reset": "Reiniciar"
+  },
+  "theme": {
+    "light": "Claro",
+    "dark": "Oscuro",
+    "auto": "Automático"
+  },
+  "dashboard": {
+    "cardsInfo": {
+      "totalWebInstances": "Total de instancias web",
+      "totalWebInstancesRunning": "Total de instancias web en ejecución",
+      "webInstancesConnected": "Instancias web conectadas",
+      "totalWebConnections": "Total de instancias web conectadas",
+      "webInstancesDisconnected": "Instancias web desconectadas",
+      "totalWebDisconnections": "Total de instancias web desconectadas",
+      "link": "Acceso"
+    },
+    "filters": {
+      "period": "Periodo",
+      "label": "Filtrar por",
+      "thisMonth": "Este mes",
+      "lastMonth": "Mes pasado",
+      "yesterday": "Ayer",
+      "today": "Hoy",
+      "selectOrSearch": "Seleccione o busque"
+    },
+    "cardsFilter": {
+      "totalSent": "Total enviado",
+      "totalReceived": "Total recibido"
+    },
+    "chart": {
+      "title": "Total recibido/enviado del mes pasado",
+      "qtyReceived": "Quantidade recebida",
+      "qtySent": "Quantidade enviada"
+    },
+    "messageStats": {
+      "title": "Mensajes Enviados",
+      "sent": "Enviadas",
+      "received": "Recibidas",
+      "noData": "No hay datos disponibles",
+      "texts": "Textos",
+      "buttons": "Botoes",
+      "links": "Links",
+      "options": "Opciones",
+      "documents": "Documentos",
+      "audios": "Audio",
+      "videos": "Videos",
+      "contacts": "Contactos",
+      "images": "Imagens",
+      "locations": "Localizacoes",
+      "stickers": "Stickers"
+    }
+  },
+  "pages": {
+    "instances": {
+      "title": "Instancias web",
+      "table": {
+        "id": "ID",
+        "type": "Tipo",
+        "token": "Token",
+        "name": "Nombre",
+        "status": "Estado",
+        "paymentMatureDate": "Fecha de vencimiento del pago",
+        "payment": "Pago",
+        "show": "Mostrar",
+        "created_at": "Fecha de creación",
+        "actions": "Acciones",
+        "actionsDropdown": {
+          "downloads": "Descargas",
+          "csv": "CSV",
+          "json": "JSON",
+          "xml": "XML"
+        }
+      },
+      "filters": {
+        "all": "Todas",
+        "conected": "Conectadas",
+        "disconnected": "Desconectadas",
+        "searchHeader": "Buscar",
+        "add": "Agregar"
+      },
+      "register": {
+        "title": "Registrar nueva instancia web",
+        "navTabs": {
+          "webInstanceData": "Datos de la instancia web",
+          "configs": "Configuraciones",
+          "webhooks": "Webhooks",
+          "subtitleWebhooks": "Si quieres, puedes configurar webhooks para tu instancia, esto te permite escuchar eventos de ella.",
+          "configureWebhooks": "Configurar webhooks",
+          "form": {
+            "instanceName": "Nombre de la instancia",
+            "instanceId": "ID de la instancia",
+            "automaticallyRejectCalls": "Rechazar llamadas automático",
+            "automaticallyReadMessages": "Leer mensajes automático",
+            "tokenIntegration": "Token de integración",
+            "generateNewToken": "Generar nuevo token",
+            "continue": "Continuar",
+            "cancel": "Cancelar",
+            "save": "Guardar",
+            "update": "Actualizar",
+            "webhooks": {
+              "whenSendMessage": "Al enviar",
+              "whenReceiveMessage": "Al recibir",
+              "whenDisconnect": "Al desconectar",
+              "whenConnect": "Al conectar",
+              "receiveMessageStatus": "Recibir estado de mensaje",
+              "chatPresence": "Presencia del chat",
+              "notifyThoseSentByMeAsWell": "Notificar las enviadas por mi tambien",
+              "onSendOrReceiveMessage": "Al enviar o recibir mensaje",
+              "onChangeInstanceStatus": "Al cambiar el estado de la instancia (conectar/desconectar)"
+            }
+          }
+        }
+      },
+      "details": {
+        "title": "Detalles de la instancia",
+        "subtitle": "Esta es su información para integrar con esta instancia, no comparta esta información.",
+        "apiInstance": "API de la instancia",
+        "IDInstance": "ID da instância",
+        "nameInstance": "Nombre de la instancia",
+        "statusInstance": "Estado de la instancia",
+        "tokenInstance": "Token da instância",
+        "ReadTheQrCode": "Leer el código QR",
+        "helpTextQrCode": "Escanea el código QR con la app de WhatsApp para conectar con la instancia.",
+        "connectPhoneNumber": "Conectar con el numero de telefono",
+        "instanceData": "Datos de instancia ",
+        "instanceUpdate": {
+          "msgSuccess": "Datos de instancia actualizados con exito.",
+          "msgError": "Error al actualizar los datos de la instancia. Por favor, intente nuevamente."
+        },
+        "instanceExpired": {
+          "title": "Realizar el pago",
+          "subtitle": "Tu instancia ha caducado, realiza el pago para seguir usándola.",
+          "button": "Para Firmar",
+          "makePayment": "Realizar el pago",
+          "makePaymentSubtitle": "Para utilizar esta instancia, debes pagar por ella. El valor es: ",
+          "Signature": "Firma",
+          "instanceCode": "Código de instancia",
+          "statusInstance": "Estado actual",
+          "expiredIn": "Expira en",
+          "days": "dias",
+          "months": "meses",
+          "years": "anos",
+          "alertMessage": "Tu periodo de prueba ha caducado, realiza el pago para continuar usando esta instancia."
+        },
+        "modalPayments": {
+          "title": "Métodos de pago",
+          "subtitle": "Seleccione una de las siguientes opciones para completar el pago:",
+          "bankSlip": "Recibo bancario",
+          "creditCard": "Tarjeta de crédito",
+          "debitCard": "Tarjeta de debito",
+          "pix": "PIX",
+          "boleto": "Recibo bancario",
+          "btnCancel": "Cancelar"
+        }
+      }
+    },
+    "accountData": {
+      "title": "Datos de la cuenta",
+      "form": {
+        "fullName": "Nombre completo",
+        "email": "Correo electrónico",
+        "phone": "Telefono",
+        "cpfCnpj": "CPF / CNPJ",
+        "yourAForeigner": "Vos sos extranjero?",
+        "yes": "Si",
+        "no": "No",
+        "address": "Endereço",
+        "cep": "CEP",
+        "street": "Calle",
+        "number": "Numero",
+        "neighborhood": "Barrio",
+        "btnCancel": "Cancelar",
+        "btnSave": "Salvar alterações",
+        "msgError": "Erro ao atualizar dados da conta. Por favor, tente novamente.",
+        "msgSuccess": "Dados da conta atualizados com sucesso."
+      }
+    }
+  },
+  "featured_nav": {
+    "dashboard": "Panel",
+    "title": "Ver los principales indicadores"
+  },
+  "profile": {
+    "account": {
+      "title": "Cuenta",
+      "items": {
+        "updates": "Actualizaciones",
+        "messages": "Mensajes",
+        "tasks": "Tareas",
+        "comments": "Comentarios"
+      }
+    },
+    "settings": {
+      "title": "Ajustes",
+      "items": {
+        "profile": "Perfil",
+        "settings": "Ajustes",
+        "payments": "Pagos",
+        "projects": "Proyectos"
+      }
+    },
+    "lock_account": "Bloquear cuenta",
+    "logout": "Cerrar sesión"
+  },
+  "breadcrumb": {
+    "home": "Inicio",
+    "library": "Librería",
+    "data": "Datos"
+  },
+  "sidebar": {
+    "items": {
+      "dashboardTitle": "Menú Principal",
+      "dashboard": "Tablero",
+      "sample": "Ejemplo",
+      "breadcrumb": "Navegación",
+      "cards": "Tarjetas",
+      "carousel": "Carrusel",
+      "collapse": "Colapsar",
+      "list_group": "Grupo",
+      "navs": "Navegaciones",
+      "accountData": "Datos de la Cuenta",
+      "webInstances": "Instancias Web",
+      "login": "Iniciar Sesión",
+      "register": "Registrarse",
+      "docs": "Documentos",
+      "help": "Ayuda",
+      "pages": "Páginas"
+    }
+  }
+}

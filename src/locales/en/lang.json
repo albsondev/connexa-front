@@ -1,0 +1,276 @@
+{
+  "login": {
+  "title": "Login",
+  "description": "Sign in to your account",
+  "form": {
+    "username": "Username",
+    "email": "Email",
+    "password": "Password",
+    "submit": "Login",
+    "submitting": "Logging in..."
+  },
+  "forgot_password": "Forgot password?",
+  "signup": {
+    "title": "Sign up",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod\ntempor incididunt ut labore et dolore magna aliqua."
+  },
+  "message": {
+    "auth_failed": "Invalid username or password"
+  },
+  "error": {
+    "generic": "An error occurred. Please try again."
+  }
+},
+  "pagination": {
+    "summary": "Showing {{from}} to {{to}} of {{total}} results",
+    "rows_per_page": "Rows per page"
+  },
+  "signup": {
+    "title": "Register",
+    "description": "Create your account",
+    "register_now": "Register Now!",
+    "form": {
+      "username": "Username",
+      "email": "Email",
+      "password": "Password",
+      "confirm_password": "Confirm Password",
+      "submit": "Create Account"
+    }
+  },
+  "action": {
+    "info": "Info",
+    "edit": "Edit",
+    "delete": "Delete",
+    "submit": "Submit",
+    "submitting": "Submitting...",
+    "reset": "Reset"
+  },
+  "theme": {
+    "light": "Light",
+    "dark": "Dark",
+    "auto": "Auto"
+  },
+  "dashboard": {
+    "cardsInfo": {
+      "totalWebInstances": "Total web instances",
+      "totalWebInstancesRunning": "Total web instances running",
+      "webInstancesConnected": "Connected web instances",
+      "totalWebConnections": "Total Connected web instances",
+      "webInstancesDisconnected": "Disconnected web instances",
+      "totalWebDisconnections": "Total disconnected web instances",
+      "link": "Access"
+    },
+    "filters": {
+      "period": "Period",
+      "label": "Filtrar por",
+      "thisMonth": "This month",
+      "lastMonth": "Last month",
+      "yesterday": "Yesterday",
+      "today": "Today",
+      "selectOrSearch": "Select or search"
+    },
+    "cardsFilter": {
+      "totalSent": "Total sent",
+      "totalReceived": "Total received"
+    },
+    "chart": {
+      "title": "Total received/sent last month",
+      "qtyReceived": "Quantity received",
+      "qtySent": "Quantity sent"
+    },
+    "messageStats": {
+      "title": "Messages Sent",
+      "sent": "Sent",
+      "received": "Received",
+      "noData": "No data available",
+      "texts": "Texts",
+      "buttons": "Buttons",
+      "links": "Links",
+      "options": "Options",
+      "documents": "Documents",
+      "audios": "Audios",
+      "videos": "Videos",
+      "contacts": "Contacts",
+      "images": "Images",
+      "locations": "Locations",
+      "stickers": "Stickers"
+    }
+  },
+  "pages": {
+    "instances": {
+      "title": "Instances",
+      "table": {
+        "id": "ID",
+        "type": "Type",
+        "token": "Token",
+        "name": "Name",
+        "status": "Status",
+        "paymentMatureDate": "Payment Mature Date",
+        "payment": "Payment",
+        "show": "Show",
+        "created_at": "Created at",
+        "actions": "Actions",
+        "actionsDropdown": {
+          "downloads": "Downloads",
+          "csv": "CSV",
+          "json": "JSON",
+          "xml": "XML"
+        }
+      },
+      "filters": {
+        "all": "All",
+        "conected": "Connected",
+        "disconnected": "Disconnected",
+        "searchHeader": "Search here...",
+        "add": "Add"
+      },
+      "register": {
+        "title": "Register New Instance",
+        "navTabs": {
+          "webInstanceData": "Web Instance Data",
+          "configs": "Configurations",
+          "webhooks": "Webhooks",
+          "subtitleWebhooks": "If you want, you can configure webhooks for your instance, this allows you to listen to events from it.",
+          "configureWebhooks": "Configure Webhooks",
+          "form": {
+            "instanceName": "Name of the instance",
+            "instanceId": "Instance ID",
+            "automaticallyRejectCalls": "Automatically reject calls",
+            "automaticallyReadMessages": "Automatically read messages",
+            "tokenIntegration": "Token Integration",
+            "generateNewToken": "Generate new token",
+            "continue": "Continue",
+            "cancel": "Cancel",
+            "save": "Save",
+            "update": "Update",
+            "webhooks": {
+              "whenSendMessage": "When send",
+              "whenReceiveMessage": "When receive",
+              "whenDisconnect": "When disconnect",
+              "whenConnect": "When connect",
+              "receiveMessageStatus": "Receive message status",
+              "chatPresence": "Chat presence",
+              "notifyThoseSentByMeAsWell": "Notify those sent by me as well",
+              "onSendOrReceiveMessage": "On send or receive message",
+              "onChangeInstanceStatus": "When changing the instance status (connect/disconnect)"
+            }
+          }
+        }
+      },
+      "details": {
+        "title": "Instance Details",
+        "subtitle": "These are your information for integration with this instance, do not share these information.",
+        "apiInstance": "API Instance",
+        "IDInstance": "ID Instance",
+        "nameInstance": "Instance Name",
+        "statusInstance": "Instance Status",
+        "tokenInstance": "Token Instance",
+        "ReadTheQrCode": "Read the QRCode",
+        "helpTextQrCode": "Scan the QRCode with your cellphone to connect.",
+        "connectPhoneNumber": "Connect with phone number:",
+        "instanceData": "Instance Data ",
+        "instanceUpdate": {
+          "msgSuccess": "Instance data updated successfully.",
+          "msgError": "Error updating instance data. Please try again."
+        },
+        "instanceExpired": {
+          "title": "Make the payment",
+          "subtitle": "Before using this instance is necessary to make the payment. The value is: ",
+          "button": "To Sign",
+          "makePayment": "Make the Payment",
+          "makePaymentSubtitle": "Before using this instance is necessary to make the payment. The value is: ",
+          "Signature": "Signature",
+          "instanceCode": "Instance Code",
+          "statusInstance": "Current Status",
+          "expiredIn": "Expires in ",
+          "days": "days",
+          "months": "months",
+          "years": "years",
+          "alertMessage": "Your evaluation period has expired, make the payment to continue using this instance."
+        },
+        "modalPayments": {
+          "title": "Payment methods",
+          "subtitle": "Select one of the options below to complete your payment:",
+          "bankSlip": "Bank slip",
+          "creditCard": "Credit card",
+          "debitCard": "Debit card",
+          "pix": "PIX",
+          "boleto": "Bank slip",
+          "btnCancel": "Cancel"
+        }
+      }
+    },
+    "accountData": {
+      "title": "Account Data",
+      "form": {
+        "fullName": "Full name",
+        "email": "E-mail",
+        "phone": "Phone number",
+        "cpfCnpj": "CPF/CNPJ",
+        "yourAForeigner": "Are you a foreigner?",
+        "yes": "Yes",
+        "no": "No",
+        "address": "Address",
+        "cep": "CEP",
+        "street": "Street",
+        "number": "Number",
+        "neighborhood": "Neighborhood",
+        "btnCancel": "Cancel",
+        "btnSave": "Save Changes",
+        "msgError": "Error updating account data. Please try again.",
+        "msgSuccess": "Account data updated successfully."
+      }
+    }
+  },
+  "featured_nav": {
+    "dashboard": "Dashboard",
+    "title": "See the main indicators"
+  },
+  "profile": {
+    "account": {
+      "title": "Account",
+      "items": {
+        "updates": "Updates",
+        "messages": "Messages",
+        "tasks": "Tasks",
+        "comments": "Comments"
+      }
+    },
+    "settings": {
+      "title": "Settings",
+      "items": {
+        "profile": "Profile",
+        "settings": "Settings",
+        "payments": "Payments",
+        "projects": "Projects"
+      }
+    },
+    "lock_account": "Lock account",
+    "logout": "Logout"
+  },
+  "breadcrumb": {
+    "home": "Home",
+    "library": "Library",
+    "data": "Data"
+  },
+  "sidebar": {
+    "items": {
+      "dashboardTitle": "Main Menu",
+      "dashboard": "Dashboard",
+      "sample": "Example",
+      "breadcrumb": "Navigation",
+      "cards": "Cards",
+      "carousel": "Carousel",
+      "collapse": "Collapse",
+      "list_group": "Group",
+      "navs": "Navs",
+      "accountData": "Account Data",
+      "webInstances": "Web Instances",
+      "login": "Login",
+      "register": "Register",
+      "docs": "Docs",
+      "help": "Help",
+      "pages": "Pages"
+    }
+  }
+}

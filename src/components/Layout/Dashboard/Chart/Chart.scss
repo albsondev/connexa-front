@@ -1,0 +1,16 @@
+.chartContainer {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    margin-top: 1em;
+
+    & > span {
+      border-bottom: 1px solid #ddd;
+      display: block;
+      margin-top: -0.5em;
+      padding-bottom: 0.5em;
+    }
+  }
+  

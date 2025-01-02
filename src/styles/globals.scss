@@ -1,0 +1,54 @@
+$enable-negative-margins: true;
+$bg-primary: #3f3d56;
+$bg-primary-hover: #272635;
+$color-primary: #3f3d56;
+$border-color-primary: #8a57ea;
+$border-color-primary-hover: #422577;
+
+@import "~bootstrap/scss/bootstrap";
+
+@import "layout/footer";
+@import "layout/header";
+@import "layout/sidebar";
+
+@import "_custom";
+
+.bg-primary {
+    background-color: $bg-primary !important;
+}
+
+.text-primary {
+    color: $color-primary !important;
+}
+
+.btn-primary {
+    background-color: $bg-primary;
+    border-color: $border-color-primary;
+
+    &:hover {
+        background-color: $bg-primary-hover;
+        border-color: $border-color-primary-hover;
+    }
+}
+
+.form-check-input:checked {
+    background-color: #02d608;
+    border-color: #00c067;
+}
+
+.nav-title-info-user {
+    background-color: #e2e2e2;
+    border-bottom: 3px solid #d4d4d4;
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+    margin-top: -0.25em !important;
+    filter: drop-shadow(1px 1px 1px rgba(0,0,0,0.25));
+    font-weight: 600 !important;
+
+}
+
+@media only screen and (max-width: 600px) {
+    .row-cardsFilter .col-md-2{
+        width: 50%;
+    }   
+  }

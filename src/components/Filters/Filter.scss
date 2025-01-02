@@ -1,0 +1,75 @@
+$background-btn-checked: #00c7b7;
+$border-color-y-btn-checked: #0b9185;
+$border-x-btn-checked: 2px solid #00b4a5 !important;
+$border-default: 1px solid #ddd;
+$color-label-default: #c0c0c0 !important;
+
+.filter-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border: $border-default;
+    width: 100%;
+
+    .content-select {
+        width: 50%;
+    }
+
+    & .btn-group > label{
+      border-color: $color-label-default;
+      font-size: small !important;
+    }
+
+    & label[role="group"] {
+        font-weight: normal !important;
+    }
+
+    .input-group .btn {
+        border: none;
+    }
+      
+      input[type="text"] {
+        border-radius: 0;
+        border-right: none;
+      }
+
+      .btn-check:checked + .btn {
+        background-color: $background-btn-checked;
+        border-color: $border-color-y-btn-checked;
+        border-left: $border-x-btn-checked;
+        border-right: $border-x-btn-checked;
+      }
+
+      @media only screen and (max-width: 600px) {
+        & {
+          flex-direction: column;
+
+          & label.title-period {
+            align-items: flex-start !important;
+            font-size: 0.85rem !important;
+          }
+
+          & .btn-group {
+            width: 100% !important;
+
+            & label {
+              font-size: 0.65rem !important;
+            }
+          }
+        }
+
+        & .content-select{
+          width: 100%;
+          z-index: 999;
+
+          & label {
+            font-size: 0.85rem !important;
+          }
+
+          & div#instance-select {
+            font-size: 0.65rem !important;
+          }
+        }
+      }
+  }  
+  

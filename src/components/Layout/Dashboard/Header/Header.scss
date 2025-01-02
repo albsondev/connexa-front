@@ -1,0 +1,35 @@
+header.header {
+    .text-small {
+        font-size: 0.7rem;
+        color: rgb(165, 165, 165) !important;
+    }
+
+    .flag-container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        overflow: hidden;
+      
+        .country-flag {
+            width: 90%;
+            height: 175%;
+            object-fit: cover;
+            position: absolute;
+            border-radius: 50%;
+            filter: drop-shadow(1px 1px 2px rgba(0,0,0,0.3));
+        }
+    }
+
+    .header-logout {
+        margin-left: 0.5em;
+        margin-right: 0.5em;
+        font-weight: 700;
+        border-left: 1px solid #f0f0f0;
+        color: #9c9c9c;
+        font-size: 1rem;
+        & svg, & i {
+            padding-left: 0.5em;
+        }
+    }
+      
+}
